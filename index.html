@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feminismo: Igualdad y Derechos</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            background-color:#f8f5f7;
+            color:#333;
+            line-height:1.8;
+        }
+
+        header{
+            background:linear-gradient(135deg,#8e44ad,#e91e63);
+            color:white;
+            text-align:center;
+            padding:80px 20px;
+        }
+
+        header h1{
+            font-size:3rem;
+            margin-bottom:15px;
+        }
+
+        header p{
+            font-size:1.2rem;
+            max-width:800px;
+            margin:auto;
+        }
+
+        nav{
+            background:#6a1b9a;
+            padding:15px;
+            text-align:center;
+            position:sticky;
+            top:0;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 20px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#ffd1ec;
+        }
+
+        .contenedor{
+            width:90%;
+            max-width:1200px;
+            margin:auto;
+            padding:50px 0;
+        }
+
+        .seccion{
+            margin-bottom:70px;
+        }
+
+        .seccion h2{
+            color:#c2185b;
+            margin-bottom:20px;
+            font-size:2rem;
+            border-left:6px solid #c2185b;
+            padding-left:15px;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            gap:25px;
+            margin-top:25px;
+        }
+
+        .card{
+            background:white;
+            border-radius:15px;
+            overflow:hidden;
+            box-shadow:0 5px 15px rgba(0,0,0,0.15);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+        }
+
+        .card img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+        }
+
+        .card-content{
+            padding:20px;
+        }
+
+        .card-content h3{
+            color:#8e24aa;
+            margin-bottom:10px;
+        }
+
+        .destacado{
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        footer{
+            background:#4a148c;
+            color:white;
+            text-align:center;
+            padding:30px;
+            margin-top:40px;
+        }
+
+        footer p{
+            font-size:0.95rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Feminismo</h1>
+    <p>
+        Un movimiento social, político y cultural que busca la igualdad de derechos
+        y oportunidades entre mujeres y hombres, promoviendo una sociedad más justa e inclusiva.
+    </p>
+</header>
+
+<nav>
+    <a href="#quees">¿Qué es?</a>
+    <a href="#historia">Historia</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#galeria">Galería</a>
+</nav>
+
+<div class="contenedor">
+
+    <section id="quees" class="seccion">
+        <h2>¿Qué es el feminismo?</h2>
+
+        <div class="destacado">
+            <p>
+                El feminismo es un movimiento que busca la igualdad de derechos,
+                oportunidades y condiciones para todas las personas, independientemente
+                de su género. Su objetivo principal es eliminar la discriminación y las
+                desigualdades que históricamente han afectado a las mujeres.
+            </p>
+
+            <p>
+                Gracias a las luchas feministas se han conseguido importantes avances,
+                como el derecho al voto, el acceso a la educación, mejores oportunidades
+                laborales y la protección frente a la violencia de género.
+            </p>
+        </div>
+    </section>
+
+    <section id="historia" class="seccion">
+        <h2>Historia del Feminismo</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1000&q=80" alt="Manifestación feminista">
+                <div class="card-content">
+                    <h3>Primera Ola</h3>
+                    <p>
+                        Se centró en la obtención de derechos civiles y políticos,
+                        especialmente el derecho al voto para las mujeres.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=80" alt="Mujeres unidas">
+                <div class="card-content">
+                    <h3>Segunda Ola</h3>
+                    <p>
+                        Promovió la igualdad laboral, educativa y social,
+                        además de los derechos reproductivos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80" alt="Igualdad de género">
+                <div class="card-content">
+                    <h3>Tercera y Cuarta Ola</h3>
+                    <p>
+                        Buscan la inclusión, la diversidad, la igualdad salarial
+                        y la erradicación de la violencia de género.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="objetivos" class="seccion">
+        <h2>Objetivos del Feminismo</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Igualdad de Derechos</h3>
+                    <p>
+                        Garantizar que todas las personas tengan los mismos derechos
+                        y oportunidades.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Educación Inclusiva</h3>
+                    <p>
+                        Promover el acceso equitativo a la educación y eliminar
+                        estereotipos de género.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Erradicación de la Violencia</h3>
+                    <p>
+                        Combatir todas las formas de violencia y discriminación
+                        basadas en el género.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="galeria" class="seccion">
+        <h2>Galería Feminista</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1000&q=80" alt="Movimiento feminista">
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1000&q=80" alt="Igualdad">
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1000&q=80" alt="Derechos de las mujeres">
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>
+        Página educativa sobre el feminismo | Diseño profesional en HTML y CSS
+    </p>
+</footer>
+
+</body>
+</html>
